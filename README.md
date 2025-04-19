@@ -1,5 +1,5 @@
 # Super-Resolution of SOHO/MDI Magnetograms of Solar Active Regions Using SDO/HMI Data and an Attention-Aided Convolutional Neural Network
-[![DOI](https://doi.org/10.1007/s11207-024-02283-1)](https://doi.org/10.1007/s11207-024-02283-1)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15244026.svg)](https://doi.org/10.5281/zenodo.15244026)
 
 ## Author
 Chunhui Xu, Jason T. L. Wang, Haimin Wang, Haodi Jiang, Qin Li, Yasser Abduallah & Yan Xu 
@@ -12,12 +12,12 @@ Image super-resolution is an important subject in image processing and recogniti
 - `train.py`: Training script for the model.
 - `test.py`: Testing script to evaluate the model.
 - `model.py`: Defines the model architecture.
-- `data/image/train/`: Directory containing training data of MDI.
-- `data/image/test/`: Directory containing test data of MDI.
-- `data/label/train/`: Directory containing training data of HMI.
-- `data/label/test/`: Directory containing test data of HMI.
-- `data/pred/`: Directory containing predictions.
-- `model/`: Directory for saving trained models.
+- `data/image/train/`: Directory containing training data of MDI. Full dataset available via Zenodo.
+- `data/image/test/`: Directory containing test data of MDI. A few samples are included; full set available via Zenodo.
+- `data/label/train/`: Directory containing training data of HMI. Full dataset available via Zenodo.
+- `data/label/test/`: Directory containing test data of HMI. A few samples are included; full set available via Zenodo.
+- `data/pred/`: Directory containing predictions. A few samples are included; full set available via Zenodo.
+- `model/`: Directory for saving trained models. Download from Zenodo. Moreover, the trained model can also be downloaded directly from [Google Drive](https://drive.google.com/file/d/18YJfFA0VbECbQWTTyr7q-8eOFAktBOOV/view?usp=sharing).
 - `README.md`: Documentation for setup and usage.
 
 ## Environment Setup
