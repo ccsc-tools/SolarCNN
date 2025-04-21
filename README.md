@@ -1,5 +1,5 @@
 # Super-Resolution of SOHO/MDI Magnetograms of Solar Active Regions Using SDO/HMI Data and an Attention-Aided Convolutional Neural Network
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15244026.svg)](https://doi.org/10.5281/zenodo.15244026)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15250172.svg)](https://doi.org/10.5281/zenodo.15250172)
 
 ## Author
 Chunhui Xu, Jason T. L. Wang, Haimin Wang, Haodi Jiang, Qin Li, Yasser Abduallah & Yan Xu 
@@ -18,6 +18,7 @@ Image super-resolution is an important subject in image processing and recogniti
 - `data/label/test/`: Directory containing test data of HMI. A few samples are included; full set available via Zenodo.
 - `data/pred/`: Directory containing predictions. A few samples are included; full set available via Zenodo.
 - `model/`: Directory for saving trained models. Download from Zenodo. Moreover, the trained model can also be downloaded directly from [Google Drive](https://drive.google.com/file/d/18YJfFA0VbECbQWTTyr7q-8eOFAktBOOV/view?usp=sharing).
+- `prediction_workflow.ipynb`: Workflow of prediction.
 - `README.md`: Documentation for setup and usage.
 
 ## Environment Setup
